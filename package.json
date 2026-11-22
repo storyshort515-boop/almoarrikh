@@ -1,0 +1,14 @@
+{
+  "name": "almoarrikh-platform",
+  "version": "1.0.0",
+  "description": "منصة المؤرخ - الأستاذ سعيد إسماعيل - تاريخ الثانوي العام",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "seed:demo": "node --disable-warning=ExperimentalWarning server/seed-demo.js",
+    "test": "node --disable-warning=ExperimentalWarning server/test.js"
+  }
+}
